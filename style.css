@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+    /* position: absolute; */
+    background-color: rgb(128, 128, 128);
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    height: 100vh; 
+    transition: transform 0.5s ease-in;
+}
+
+.sidebar li{
+    color: white;
+}
+
+.sidebar nav{
+    padding: 22px;
+    margin: 13px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    color: rgb(67, 64, 64);
+    cursor: pointer;
+}
+
+.main{
+    /* background-color: green; */
+    font-family: 'Ubuntu', sans-serif;
+    width: 83vw;
+}
+
+.container{
+    display: flex;
+}
+
+.InfoContainer{
+    /* background-color: red; */
+    height: 42vh;
+    width: 102vw;
+    margin: 59px auto;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-around; */
+}
+
+.devInfo{
+    display: flex;
+    margin: 70px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devPic{
+    margin: 5px 9px;
+}
+.hello{
+    font-size: 2em;
+}
+
+.name{
+    font-size: 3em;
+    font-family: 'Sigmar', cursive;
+}
+
+.about{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.aboutmore{
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.btn{
+    margin-top: 2.2em;
+    font-size: 8px;
+}
+
+.btn button{
+    padding: 9px 16px;
+    border-radius: 6px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    height: 595px;
+    margin: -83px 0px;
+    width: 595px;
+}
+
+/* Contact container */
+
+.contactform h1{
+    font-family: 'Sigmar', cursive;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactform{
+    padding: 3px 85px;
+    margin: 50px 88px;
+    font-family: 'Sigmar';
+}
+
+.contactform form div{
+    padding: 10px 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 4px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(90, 111, 118);
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 22px;
+    margin: 2px 0;
+}
+
+.enquiry{
+    width: 27vw;
+    height: 80px;
+}
+
+.client-checkbox{
+    margin: 11px;
+}
+
+.button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+    
+.button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+/* Blog container */
+
+.blogContainer{
+    margin: 20px;
+}
+
+.blogContainer h1{
+    font-family: 'Sigmar', cursive;
+    margin: 33px;
+}
+
+.blogItem p{
+    font-family: initial;
+}
+
+
+/* My Info container */
+
+
+.intro h2{
+    margin: 12px;
+    font-family: 'Sigmar', cursive;
+}
+
+.intro p{
+    margin: 12px;
+    font-family: initial;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    width: 256px;
+    height: 6px;
+    border: 2px solid black;
+}
+
+.t1{
+    width: 250px;
+    background-color: yellow;
+}
+
+.t2{
+    width: 200px;
+    background-color: red;
+}
+
+.t3{
+    width: 125px;
+    background-color: blue;
+}
+
+.t4{
+    width: 100px;
+    background-color: green;
+}
+
+
+/* Services */
+
+.main{
+    margin-left: 124px;
+    padding: 12px;
+}
+
+.main h1{
+    font-family: 'Sigmar', cursive;
+}
+
+.service h2{
+    margin: 12px;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+.service p{
+    font-family: inherit;
+    margin: 8px;
+    font-size: 1em;
+}
+
+
+
+/* Hamburger */
+
+.sidebarGo{
+    transform: translate(-442px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+.cross{
+    margin-left: 112px;
+}
+
+@media (max-width: 1109px) {
+    .button{
+        font-size: 5px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .sidebar{
+        position: absolute;
+    }
+    .intro, .contactform, .blogContainer{
+        margin: 50px 8px;
+    }
+}
